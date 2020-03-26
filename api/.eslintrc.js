@@ -11,7 +11,6 @@ module.exports = {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
-  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
@@ -20,5 +19,8 @@ module.exports = {
     'prettier/prettier': 'error',
     'import/prefer-default-export': 'off',
     'class-methods-use-this': 0,
+    "no-param-reassign": 0,
+    "camelcase": 0,
+    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }]
   },
 };
