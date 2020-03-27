@@ -9,23 +9,21 @@ export const Container = styled.div`
 
     display: flex;
     align-items: center;
-    justify-content: center;
-  }
-`;
+    justify-content: space-between;
 
-export const Section = styled.form`
-  section {
-    width: 100%;
-    max-width: 350px;
-    margin-right: 50px;
-  }
+    section {
+      width: 100%;
+      max-width: 350px;
+      margin-right: 30px;
 
-  form {
-    margin-top: 100px;
-  }
+      form {
+        margin-top: 100px;
+      }
 
-  h1 {
-    font-size: 32px;
-    margin-bottom: 32px;
+      h1 {
+        font-size: 32px;
+        margin-bottom: 32px;
+      }
+    }
   }
 `;
