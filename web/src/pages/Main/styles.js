@@ -18,8 +18,9 @@ export const Section = styled.form`
     width: 100%;
     max-width: 350px;
     margin-right: 50px;
+  }
 
-    form {
+  form {
     margin-top: 100px;
   }
 
