@@ -1,6 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import './src/config/ReactotronConfig';
+
+console.tron.log('Hello world');
+
 export default function App() {
   return (
     <View style={styles.container}>
