@@ -1,8 +1,18 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Image, Text } from 'react-native';
+
+import logoImg from '../../assets/logo.png';
+import styles from './styles';
 
 export default function Incidents() {
   return(
-    <View />
+    <View style={styles.container}>
+      <View style={styles.header}>
+        <Image source={logoImg} />
+        <Text style={styles.headerText}>
+          Incidents page
+        </Text>
+      </View>
+    </View>
   );
 }
