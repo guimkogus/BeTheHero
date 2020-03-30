@@ -3,6 +3,11 @@
 # Be The Hero - Semana OmniStack 11.0 🛰
 
 ## 🤔 About the project
+### WEB:
+<img src=https://im2.ezgif.com/tmp/ezgif-2-7d2ebea43500.gif>
+
+### MOBILE:
+<img src=https://im2.ezgif.com/tmp/ezgif-2-7c78f0b9060c.gif>
 
 ### What?
 This project was created together with the "Semana OmniStack 11.0" of <a href="https://rocketseat.com.br"> Rocketseat </a> taught by Diego Fernandes. The project aim to create the first portfolio, introducing and teaching tecnologies like Node.js, ReactJS and React Native, as well as other libraries and resources.
